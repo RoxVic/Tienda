@@ -1,0 +1,53 @@
+body{
+    margin: 20px;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+header {
+    background-color: #007BBF;
+    
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.container-fluid {
+  background-color: #f0f0f0; /* Cambia fondo */
+}
+
+.hola input{
+    width: 800px;
+}
+
+.precio {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    background-color: #007BBF;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+article {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
